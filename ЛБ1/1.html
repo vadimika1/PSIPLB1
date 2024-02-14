@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name]">
+    <meta name="keywords" content="portfolio, skills, experience, projects">
+    <meta name="author" content="[Your Name]">
+    <title>Вадим Антонович портфолио</title>
+    <style>
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        audio, video {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        form {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#section1">Первый раздел</a>   <a href="#section2">Второй раздел</a>   <a href="#section3">Третий раздел</a>
+    <h1 id="section1" align="center">Обо мне</h1>
+    <p>Привет, меня зовут Вадим. Я будущий программист, и на этом сайте вы можете увидеть моё портфолио</p>
+    
+    <h2 align="center">Умения</h2>
+    <ul>
+        <li>Pascal</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>Adobe</li>
+    </ul>
+    
+    <h2 align="center">Любимые блюда</h2>
+    <ol>
+        <li>Пицца</li>
+        <li>Суши</li>
+        <li>Гамбургеры</li>
+    </ol>
+    
+    <h2 align="center">Увлечения</h2>
+    <ul>
+        <li>Видеомонтаж</li>
+        <li>Видеосьёмка</li>
+        <li>Программирование</li>
+    </ul>
+    
+    <h2 align="center">Любимые языки программирования</h2>
+    <ol>
+        <li>Python</li>
+        <li>Pascal</li>
+        <li>C#</li>
+    </ol>
+    
+    <h2 id="section2" align="center">Мои фотки</h2>
+    <img src="IMG_7075.jpg" alt="Моё фото 1">
+    <img src="IMG_7076.jpg" alt="Моё фото 2">
+    
+    <h2 id="section3" align="center">Любимый трек и видео</h2>
+    <audio controls>
+        <source src="Puzanchevskiy - Кинул.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <video width="320" height="240" controls>
+        <source src="Гендальф качает головой под битбокс.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2 align="center">Персональная информация</h2>
+    <table border="1">
+        <tr>
+          <td>Имя</td>
+          <td>Email</td>
+        </tr>
+        <tr>
+          <td>Вадим</td>
+          <td>vadimantanovich@gmail.com</td>
+        </tr>
+      </table>
+    
+      <h2>Форма регистрации</h2>
+      <form action="/submit_form_data" method="POST">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Подпишись на новости</label><br><br>
+        
+        <label for="country">Выберите страну:</label><br>
+        <select id="country" name="country">
+          <option value="usa">Беларусь</option>
+          <option value="canada">Россия</option>
+          <option value="uk">Украина</option>
+          <option value="australia">Китай</option>
+        </select><br><br>
+        
+        <label>Выберите свой пол:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужчина</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женщина</label><br><br>
+        <label for="memo">Отправьте нам своё предложение:</label><br>
+        <textarea id="memo" name="memo" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Подтвердить">
+      </form>
+    
+    <h2 align="center">Мои ссылки</h2>
+    <a href="https://github.com/vadimika1">My GitHub</a><br>
+
+    
+    <h2 align="center">Спецсимволы</h2>
+    <p>&#169; 2024 Вадим Антонович</p>
+</body>
+</html>
